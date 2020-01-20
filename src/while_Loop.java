@@ -4,11 +4,19 @@ public class while_Loop {
         int num = 23;           //While loop practice//
 
         while (num < 45) {
-            System.out.println("Okay" +" "+ num);
+            System.out.println("Okay" + " " + num);
 
-             num = num +3;
+            num = num + 3;
         }
     }
 
+    }
 
-}
+
+
+
+
+
+
+
+
