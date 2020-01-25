@@ -5,7 +5,7 @@ public class Conditional {
         int a = 8, b = 10;
 
         Scanner i = new Scanner(System.in);
-        System.out.println("Enter a Value:" +"" +i);
+        System.out.println("Enter a Value:" +" ");
         str = i.nextLine();
 
         if(a > b){
@@ -13,6 +13,12 @@ public class Conditional {
         }
         else {
             System.out.println("Unverified");
+        }
+        if (a==b){
+            System.out.println("Matched");
+        }
+        else{
+            System.out.println("Unmatched");
         }
     }
 }
