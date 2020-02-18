@@ -1,4 +1,3 @@
-
 public class sample {
     int a(){
         System.out.println("m1 method");
