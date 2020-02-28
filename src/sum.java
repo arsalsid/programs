@@ -3,9 +3,18 @@ public class sum {
         int x = 559;
         int y = Math.round(x);              //Math.Round function//
         int z = x / y;
-        float a = 19945.563f;
+        float a = 4567.9874f;
+        float b = -23456.345f;
 
         System.out.println("The Value is " +z);
-        System.out.println("The Value is " +a);
+        //  Float//
+        System.out.println(Math.round(a));
+        System.out.println(Math.round(b));
+
+       // double positiveInfinity = Double.POSITIVE_INFINITY;
+        double POSITIVE_INFINITY = Double.positiveInfinity;
+        
+       // System.out.println(Math.round(positiveInfinity));
+        System.out.println(Math.round(POSITIVE_INFINITY));
     }
 }
