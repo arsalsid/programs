@@ -11,10 +11,11 @@ public class sum {
         System.out.println(Math.round(a));
         System.out.println(Math.round(b));
 
-       // double positiveInfinity = Double.POSITIVE_INFINITY;
-        double POSITIVE_INFINITY = Double.positiveInfinity;
+        double positiveInfinity = Double.POSITIVE_INFINITY;
+        double negativeInfinity = Double.NEGATIVE_INFINITY;
         
-       // System.out.println(Math.round(positiveInfinity));
-        System.out.println(Math.round(POSITIVE_INFINITY));
+        System.out.println(Math.round(positiveInfinity));
+        System.out.println(Math.round(negativeInfinity));
+
     }
 }
