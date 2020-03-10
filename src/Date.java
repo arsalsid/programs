@@ -23,6 +23,6 @@ public class Date {
         System.out.println("Hours = " + cal.get(Calendar.HOUR));
         System.out.println("Hours of Day = " + cal.get(Calendar.HOUR_OF_DAY));
 
-      
+
     }
 }
