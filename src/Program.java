@@ -6,17 +6,17 @@ public class Program {
             System.out.println(i);
         }
         new Thread(()-> {
-            for (int i = 4; i < 100000; i++)
+            for (int i = 4; i < 7; i++)
             {
                 System.out.println(i);
             }
         }).start();
         System.out.println(2);
 
-        for (int i = 1; i < 100000; i++)
-        {
-            System.out.println("Arsalan" +i);
-        }
+//        for (int i = 1; i < 3; i++)
+//        {
+//            System.out.println("Arsalan" +i);
+//        }
     }
 
 }
