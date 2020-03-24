@@ -1,6 +1,6 @@
 
 public class A {
-    String str;
+
     private void print()
     {
         System.out.println("A");
