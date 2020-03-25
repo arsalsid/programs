@@ -7,13 +7,11 @@ public class Natural_num {
         System.out.println("Enter you number :");
 
         int n = s.nextInt();
-        System.out.println("Your number is : ");
+        System.out.println("Your number is not Natural number");
 
         for(int i = 1; i <= n; i ++ ){
             System.out.println(+i);
         }
-
-
     }
 
 }
