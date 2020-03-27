@@ -11,7 +11,7 @@ public class swap {
 
         System.out.println("Before Swapping " +x +" " +y);
         t=x; x=y; y=t;
-        
+
         System.out.println("After Swapping :"  +x +" " +y);
         System.out.println();
     }
